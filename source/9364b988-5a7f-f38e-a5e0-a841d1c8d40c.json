@@ -1,0 +1,1222 @@
+{
+  "id": "9364b988-5a7f-f38e-a5e0-a841d1c8d40c",
+  "name": "Weather Traffic",
+  "creationDate": "Tue, 04 Jul 2023 10:11:47 GMT",
+  "lastUpdateDate": "Thu, 06 Jul 2023 11:28:06 GMT",
+  "thumb": null,
+  "screenDetails": [
+    {
+      "label": "Screen 1",
+      "value": "d6d08236-4d51-ad98-5bd0-81610cfab524"
+    }
+  ],
+  "screens": [
+    {
+      "id": "d6d08236-4d51-ad98-5bd0-81610cfab524",
+      "name": "Screen 1",
+      "thumb": null,
+      "widgets": [
+        {
+          "id": "3589c8dc-b586-d331-7489-22e0c2025f33",
+          "layout": {
+            "row": 0,
+            "column": 0,
+            "rowSpan": 14,
+            "colSpan": 36
+          },
+          "component": {
+            "id": "647f647b-a9f7-39fd-14d9-1ce4e615dd47",
+            "key": "GeoMap",
+            "options": {
+              "version": "4.7.6",
+              "possibleFloats": [
+                "default"
+              ],
+              "possiblePLatLong": [
+                "default"
+              ],
+              "possibleStrings": [
+                "default"
+              ],
+              "possibleDKeys": [
+                "default"
+              ],
+              "possibleDValues": [
+                "default"
+              ],
+              "possibleGKeys": [
+                "default"
+              ],
+              "possibleDString": [
+                "default"
+              ],
+              "possibleVString": [
+                "default"
+              ],
+              "possibleHFloats": [
+                "carga",
+                "longitude",
+                "latitude",
+                "ultravioleta",
+                "viento",
+                "direccion",
+                "temperatura",
+                "humedad",
+                "presion",
+                "solar",
+                "precipitacion"
+              ],
+              "possibleLFloats": [
+                "default"
+              ],
+              "possibleLAll": [
+                ""
+              ],
+              "possibleTrack": [
+                "default"
+              ],
+              "possibleLabels": [
+                "none"
+              ],
+              "possibleShapes": [
+                "default"
+              ],
+              "possibleColors": [
+                "default"
+              ],
+              "possibleCircle": [],
+              "tooltips": "",
+              "all": [
+                "default"
+              ],
+              "vall": [
+                "default"
+              ],
+              "overlayall": [
+                "default"
+              ],
+              "overlayGeoJSONKeys": [
+                ""
+              ],
+              "Basics": {
+                "ComponentName": "GeoMap",
+                "Focus": "",
+                "Theme": "Dark"
+              },
+              "MapDetails": {
+                "Type": "terrain",
+                "Zoom": 12,
+                "CenterX": 40.41499383358117,
+                "CenterY": -3.6990789538596225,
+                "TrackChanges": true,
+                "Bounds": "",
+                "CustomMarkers": "",
+                "MapKey": "",
+                "Style": "[]"
+              },
+              "OverLay": {
+                "ShowOverlay": true,
+                "Data": "",
+                "DataDesc": "US Tourism Data",
+                "DataGeo": "USA",
+                "DataGeoId": "",
+                "DataType": "GeoJSON",
+                "DataKey": "",
+                "DataValue": "",
+                "GeoColumn": "states",
+                "Selected": "",
+                "ShowLegend": true,
+                "LegendType": "percent",
+                "LegendColor": "blue",
+                "ColorDB": "",
+                "TooltipData": "",
+                "Bounds": "",
+                "GeoFilter": "",
+                "GeoSelected": "",
+                "SelectedObjectRouting": [],
+                "ImageSrc": "none",
+                "ImageNorth": 0,
+                "ImageSouth": 0,
+                "ImageEast": 0,
+                "ImageWest": 0,
+                "ImageOpacity": 30
+              },
+              "Voronoi": {
+                "Data": "",
+                "DataKey": "",
+                "DataDesc": "",
+                "Longitude": "",
+                "Latitude": "",
+                "AvgLongitude": "",
+                "AvgLatitude": "",
+                "LineColor": "#0061FF",
+                "DotColor": "#0061FF",
+                "ShowScale": false,
+                "Scale": "",
+                "Opacity": 0.2,
+                "ScaleColor": "blue"
+              },
+              "KMLLayer": {
+                "URL": "",
+                "Enabled": false
+              },
+              "Points": {
+                "Data": "",
+                "Selected": "",
+                "Tracker": "",
+                "TrackedItem": "default",
+                "Title": "default",
+                "Latitude": "default",
+                "Longitude": "default",
+                "Shape": "default",
+                "ShapeColor": "#0061FF",
+                "ShapeCanRotation": false,
+                "ShapeSize": 10,
+                "ShapeHoverColor": "#0061FF",
+                "ShapeSelectedColor": "#0061FF",
+                "ShapeColorOpacity": 100,
+                "ShapeHoverColorOpacity": 100,
+                "ShapeSelectedColorOpacity": 100,
+                "ClusterShape": "default",
+                "ClusterSize": "default",
+                "Cluster": true,
+                "ShowTooltip": true,
+                "TooltipData": "",
+                "Zoom": true,
+                "ZoomBase": false,
+                "Center": true,
+                "PointsInView": false,
+                "Actions": [],
+                "SelectedObjectRouting": [],
+                "Label": "none",
+                "LabelColor": "#ffffff",
+                "LabelSize": 10
+              },
+              "Bounds": [],
+              "Heatmap": {
+                "Data": {
+                  "_dashboardsType": "data",
+                  "value": "weather_tab"
+                },
+                "Gradient": "default",
+                "Radius": 12,
+                "Opacity": 60,
+                "Show": true,
+                "Latitude": "latitude",
+                "Longitude": "longitude",
+                "Weight": {
+                  "_dashboardsType": "viewstate",
+                  "value": "Measure"
+                }
+              },
+              "Lines": {
+                "Data": "",
+                "Selected": "",
+                "Color": "#0061FF",
+                "LabelColor": "#ffffff",
+                "LabelSize": 10,
+                "LabelText": "",
+                "ShowTooltip": true,
+                "ShowLabel": true,
+                "Geodesic": true,
+                "ShowInView": false,
+                "GroupBy": "",
+                "DBColor": ""
+              },
+              "Circles": {
+                "Data": "",
+                "StrokeColor": "",
+                "StrokeWeight": "",
+                "StrokeOpacity": "",
+                "FillColor": "",
+                "FillOpacity": "",
+                "Radius": "",
+                "Latitude": "",
+                "Longitude": "",
+                "ShowTooltip": false,
+                "Tooltip": ""
+              },
+              "Style": {
+                "advanced": "",
+                "cssClasses": ""
+              },
+              "Alignment": {
+                "paddingLeft": "0",
+                "paddingRight": "0",
+                "paddingTop": "0",
+                "paddingBottom": "0",
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0,
+                "titlePaddingTop": 7,
+                "titlePaddingBottom": 7
+              },
+              "Format": {
+                "widgetTitle": "",
+                "titleFontSize": "16",
+                "titleHorizontal": "Center",
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0,
+                "titlePaddingTop": 0,
+                "titlePaddingBottom": 0
+              },
+              "format": {
+                "titleFontSize": 16,
+                "titleHorizontal": "Center",
+                "titleShadow": false,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              },
+              "possible_dashboards": [
+                {
+                  "title": "none",
+                  "value": "none"
+                },
+                {
+                  "title": "Demo Covid",
+                  "value": "18344ecc-dec0-bfff-b1af-129cd72881f3"
+                },
+                {
+                  "title": "Demo Liquidity",
+                  "value": "34bc1f04-b59d-a35a-9942-3a6ee0c222fa"
+                },
+                {
+                  "title": "Demo Fitness Tracker",
+                  "value": "3764adb7-e0b1-2b85-c673-d0adc26f2f7e"
+                },
+                {
+                  "title": "Demo Property",
+                  "value": "39795426-db77-dea-becc-5d19218f9224"
+                },
+                {
+                  "title": "Demo Notifications",
+                  "value": "3fcc2766-f904-d2ba-4470-8e91d9e949de"
+                },
+                {
+                  "title": "Demo Property Info",
+                  "value": "44b79aa8-1134-1dfe-25f2-a8775dda023e"
+                },
+                {
+                  "title": "Demo Visualize",
+                  "value": "53c5e521-2d14-4d6d-fe61-16ca42cea162"
+                },
+                {
+                  "title": "Demo Maps",
+                  "value": "54cecf3a-9fc0-8bbf-cf3d-53a73c5b2bc4"
+                },
+                {
+                  "title": "Demo Virtual Datasources",
+                  "value": "79e19013-f14e-ba9d-65f1-7adb3d238f55"
+                },
+                {
+                  "title": "Demo Data",
+                  "value": "80c52499-cd0a-a1ca-46bb-178be3aaeed0"
+                },
+                {
+                  "title": "Demo ChartGL",
+                  "value": "81fce31a-3caf-85de-3305-03913de2e8c4"
+                },
+                {
+                  "title": "Demo Stream",
+                  "value": "8e3e8c4f-8fd1-166e-fe4e-f49cc5504161"
+                },
+                {
+                  "title": "Demo Actions Examples",
+                  "value": "9252b787-d7cc-9bab-d20d-f19ffad41405"
+                },
+                {
+                  "title": "Weather Traffic",
+                  "value": "9364b988-5a7f-f38e-a5e0-a841d1c8d40c"
+                },
+                {
+                  "title": "Demo Health",
+                  "value": "b206840b-2e64-4209-bacd-166c883928f"
+                },
+                {
+                  "title": "Demo",
+                  "value": "b417c690-e82d-375a-ed74-484286ccfce0"
+                },
+                {
+                  "title": "Demo Graph",
+                  "value": "b58fe5e3-d02f-3130-2e53-5bddc0bbac3d"
+                },
+                {
+                  "title": "Demo Sensors",
+                  "value": "c02f1251-9300-2c35-9efe-85a0b87665f4"
+                },
+                {
+                  "title": "Demo DrillDown",
+                  "value": "ca36fe7-d6c7-acfc-14b1-a08a706b49d1"
+                },
+                {
+                  "title": "Demo Trade Investigation",
+                  "value": "cad95451-b1b2-5667-35fe-f58da79d8829"
+                },
+                {
+                  "title": "Demo ChartGL",
+                  "value": "e89f7af2-6dea-cff6-c041-05eb5b3792aa"
+                },
+                {
+                  "title": "Stream Test",
+                  "value": "e9c38322-9660-b54b-d072-cd3c9af241c1"
+                }
+              ],
+              "possible_viewstates": [
+                "DateTime",
+                "Parameter",
+                "_settings/dashboardStartTimestamp",
+                "_settings/dashboardTimezone",
+                "_settings/dashboardTitle",
+                "_settings/dashboardUrl",
+                "_settings/dashboardUser"
+              ]
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [],
+            "definitionId": "46",
+            "hasOnSettingsChange": true
+          }
+        },
+        {
+          "id": "fe62b3c4-8ee7-52e6-0806-6959b4e911d9",
+          "layout": {
+            "row": 14,
+            "column": 14,
+            "rowSpan": 1,
+            "colSpan": 22
+          },
+          "component": {
+            "id": "04e0fe4c-5e01-fd56-3d0c-ec1cb81d3d0a",
+            "key": "PlayBack",
+            "options": {
+              "version": "4.4.0",
+              "possiblePeriod": [
+                "dt"
+              ],
+              "Basics": {
+                "Data": {
+                  "_dashboardsType": "data",
+                  "value": "distinct dt"
+                },
+                "Selected": {
+                  "_dashboardsType": "viewstate",
+                  "value": "DateTime"
+                },
+                "SelectedColumn": "dt",
+                "TimeColumn": "dt",
+                "Mode": "Event",
+                "Speed": "1x",
+                "Playing": 0,
+                "MaxOverallTime": 60,
+                "IntervalTime": 1,
+                "multiStateControl": true,
+                "speedControl": true,
+                "ForcePause": false,
+                "DisplayWarning": false
+              },
+              "Alignment": {
+                "paddingLeft": "0",
+                "paddingRight": "0",
+                "paddingTop": "0",
+                "paddingBottom": "0",
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 6,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0,
+                "titlePaddingTop": 7,
+                "titlePaddingBottom": 7
+              },
+              "Style": {
+                "advanced": "",
+                "cssClasses": ""
+              },
+              "format": {
+                "titleFontSize": 16,
+                "titleHorizontal": "Center",
+                "titleShadow": false,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              }
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [],
+            "definitionId": "47",
+            "hasOnSettingsChange": true
+          }
+        },
+        {
+          "id": "004873eb-15fe-7306-992a-f964ae13677a",
+          "layout": {
+            "row": 14,
+            "column": 0,
+            "rowSpan": 1,
+            "colSpan": 14
+          },
+          "component": {
+            "id": "f50b160c-5588-3190-5328-cc7ad9c4ad62",
+            "key": "BasicComponents",
+            "options": {
+              "version": "4.7.6",
+              "dropdownPossibleValues": [
+                "measure"
+              ],
+              "Basics": {
+                "Data": {
+                  "_dashboardsType": "data",
+                  "value": "metrics"
+                },
+                "SelectedValue": {
+                  "_dashboardsType": "viewstate",
+                  "value": "Measure"
+                },
+                "ComponentName": "dropdown",
+                "DataSourceMapping": {
+                  "Value": "measure",
+                  "Text": "measure"
+                },
+                "Items": [],
+                "Width": 100,
+                "Theme": "Dark",
+                "Label": "Measure: ",
+                "LabelWidth": 75,
+                "MultiSelect": false,
+                "ShowSearch": false,
+                "AdvancedSearch": false,
+                "AcceptEmptyValues": false,
+                "ForceSelectedValue": false,
+                "FieldSummaryThreshold": 5,
+                "TooltipSummaryThreshold": 10,
+                "SelectAllValue": "",
+                "horizontal": "Center",
+                "vertical": "Middle",
+                "tooltip": "",
+                "SortListBySelected": false,
+                "Custom": {
+                  "Icon": "",
+                  "IconColor": ""
+                }
+              },
+              "Actions": [],
+              "Style": {
+                "advanced": "",
+                "cssClasses": ""
+              },
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0,
+                "titlePaddingTop": 7,
+                "titlePaddingBottom": 7
+              },
+              "format": {
+                "titleFontSize": 16,
+                "titleHorizontal": "Center",
+                "titleShadow": false,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              },
+              "dropdownPossibleValuesWithEmpty": [
+                "",
+                "measure"
+              ]
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [],
+            "definitionId": "16",
+            "hasOnSettingsChange": true
+          }
+        },
+        {
+          "id": "f293c239-9a2a-3361-58ed-b655d391a18d",
+          "layout": {
+            "row": 15,
+            "column": 0,
+            "rowSpan": 1,
+            "colSpan": 36
+          },
+          "component": {
+            "id": "7dd8f314-847b-6595-a4e5-763c971be339",
+            "key": "BasicComponents",
+            "options": {
+              "version": "4.5.0",
+              "Basics": {
+                "ComponentName": "label",
+                "HtmlText": "",
+                "Data": {
+                  "_dashboardsType": "data",
+                  "value": "distinct dt"
+                },
+                "Template": "DateTime: {{[$DateTime$]}}<br>",
+                "Theme": "Dark",
+                "FontSize": "13",
+                "horizontal": "Center",
+                "vertical": "Middle",
+                "tooltip": "",
+                "AllowUnsafeContent": false,
+                "version": "4.2.0s2"
+              },
+              "Style": {
+                "advanced": "",
+                "cssClasses": ""
+              },
+              "Alignment": {
+                "paddingLeft": 0,
+                "paddingRight": 0,
+                "paddingTop": 0,
+                "paddingBottom": 0,
+                "innerPaddingLeft": 0,
+                "innerPaddingRight": 0,
+                "innerPaddingTop": 0,
+                "innerPaddingBottom": 0,
+                "titlePaddingLeft": 0,
+                "titlePaddingRight": 0,
+                "titlePaddingTop": 7,
+                "titlePaddingBottom": 7
+              },
+              "format": {
+                "titleFontSize": 16,
+                "titleHorizontal": "Center",
+                "titleShadow": false,
+                "tileBorderWidth": 0,
+                "tileBorderRounding": 0,
+                "tileBorderColor": "#000000",
+                "tileBackgroundColor": "#000000",
+                "tileTransparentBackground": true,
+                "tileShadow": false
+              }
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [],
+            "definitionId": "17",
+            "hasOnSettingsChange": true
+          }
+        },
+        {
+          "id": "5a435651-a16d-dc88-d8fc-518422f59bfd",
+          "layout": {
+            "row": 16,
+            "column": 0,
+            "rowSpan": 7,
+            "colSpan": 36
+          },
+          "component": {
+            "id": "cd798c25-3c68-275b-3e1f-6bd6921394e8",
+            "key": "ChartJS",
+            "options": {
+              "Layers": [
+                {
+                  "_Hidden": {
+                    "_Index": 0,
+                    "_LayerId": "layer_8977",
+                    "_PossibleColumns": [
+                      "time",
+                      "carga",
+                      "temperatura"
+                    ],
+                    "_PossibleColumnsWithItself": [
+                      "<this>",
+                      "time",
+                      "carga",
+                      "temperatura"
+                    ],
+                    "_PossibleColumnsWithXYKey": [
+                      "<thisX>",
+                      "<thisY>",
+                      "<thisName>",
+                      "time",
+                      "carga",
+                      "temperatura"
+                    ],
+                    "_PossibleRadius": [
+                      "Fixed Size",
+                      "time",
+                      "carga",
+                      "temperatura"
+                    ],
+                    "_PossibleXAxes": [
+                      "XAxis 1"
+                    ],
+                    "_PossibleYAxes": [
+                      "YAxis 1"
+                    ],
+                    "_Type": "Line",
+                    "_PossibleLayers": [
+                      "nofill",
+                      "Layer 2",
+                      "origin",
+                      "+1",
+                      "+2"
+                    ]
+                  },
+                  "Basics": {
+                    "Data": {
+                      "_dashboardsType": "data",
+                      "value": "avg_weather_tab"
+                    },
+                    "LegendLabelColor": "",
+                    "Name": {
+                      "_dashboardsType": "viewstate",
+                      "value": "Measure"
+                    },
+                    "BackgroundOpacity": 50,
+                    "BorderWidth": 3
+                  },
+                  "Axes": {
+                    "XAxisData": "time",
+                    "XAxisID": "XAxis 1",
+                    "YAxisID": "YAxis 1",
+                    "YAxisData": {
+                      "_dashboardsType": "viewstate",
+                      "value": "Measure"
+                    }
+                  },
+                  "Labels": {
+                    "Font": {
+                      "Bold": false,
+                      "Size": 12
+                    }
+                  },
+                  "Line": {
+                    "Fill": "Layer 2"
+                  }
+                },
+                {
+                  "_Hidden": {
+                    "_Index": 1,
+                    "_LayerId": "layer_37285",
+                    "_PossibleColumns": [
+                      "time",
+                      "carga",
+                      "temperatura"
+                    ],
+                    "_PossibleColumnsWithItself": [
+                      "<this>",
+                      "time",
+                      "carga",
+                      "temperatura"
+                    ],
+                    "_PossibleColumnsWithXYKey": [
+                      "<thisX>",
+                      "<thisY>",
+                      "<thisName>",
+                      "time",
+                      "carga",
+                      "temperatura"
+                    ],
+                    "_PossibleRadius": [
+                      "Fixed Size",
+                      "time",
+                      "carga",
+                      "temperatura"
+                    ],
+                    "_PossibleXAxes": [
+                      "XAxis 1"
+                    ],
+                    "_PossibleYAxes": [
+                      "YAxis 1",
+                      "YAxis 2"
+                    ],
+                    "_Type": "Line",
+                    "_PossibleLayers": [
+                      "Layer 1",
+                      "nofill",
+                      "origin",
+                      "+1",
+                      "+2"
+                    ]
+                  },
+                  "Basics": {
+                    "Data": {
+                      "_dashboardsType": "data",
+                      "value": "avg_weather_tab"
+                    },
+                    "LegendLabelColor": "",
+                    "Name": "carga",
+                    "BackgroundColor": "#F23A66",
+                    "BackgroundOpacity": 50,
+                    "BorderColor": "#F23A66",
+                    "BorderWidth": 3
+                  },
+                  "Axes": {
+                    "XAxisData": "time",
+                    "XAxisID": "XAxis 1",
+                    "YAxisID": "YAxis 2",
+                    "YAxisData": "carga"
+                  },
+                  "Labels": {
+                    "Font": {
+                      "Bold": false,
+                      "Size": 12
+                    }
+                  },
+                  "Line": {
+                    "Fill": "Layer 1"
+                  },
+                  "Points": {
+                    "PointBackgroundColor": "#F23A66",
+                    "PointBorderColor": "#F23A66",
+                    "PointHoverBackgroundColor": "#F23A66",
+                    "PointHoverBorderColor": "#F23A66"
+                  }
+                }
+              ],
+              "Legend": {
+                "LegendLayerThreshold": 5
+              },
+              "XAxes": [
+                {
+                  "_Hidden": {
+                    "_AxisId": "axis_19188",
+                    "_Index": 0,
+                    "_Label": "XAxis 1",
+                    "_Type": "time"
+                  },
+                  "GridLines": {
+                    "OffsetGridLines": false
+                  },
+                  "Labels": {
+                    "MaxWidth": 0,
+                    "_ReverseCache": false,
+                    "Offset": false,
+                    "TimeFormats": {
+                      "Break": 86400000,
+                      "Day": "MMM D",
+                      "Distribution": "linear",
+                      "Hour": "HH:00",
+                      "IsoWeekday": false,
+                      "ShowMajor": false,
+                      "Millisecond": "h:mm:ss.SSS a",
+                      "Minute": "h:mm a",
+                      "Month": "MMM YYYY",
+                      "Quarter": "[Q]Q - YYYY",
+                      "Round": false,
+                      "Second": "h:mm:ss a",
+                      "TooltipFormat": "",
+                      "TriggerBreak": 86400000,
+                      "Unit": "hour",
+                      "Week": "ll",
+                      "Year": "YYYY"
+                    }
+                  },
+                  "Range": {
+                    "Max": 0,
+                    "Min": 0,
+                    "SoftRange": false,
+                    "SuggestedMax": 0,
+                    "SuggestedMin": 0,
+                    "UseDataRange": false
+                  }
+                }
+              ],
+              "YAxes": [
+                {
+                  "_Hidden": {
+                    "_Type": "linear",
+                    "_AxisId": "axis_19192",
+                    "_Index": 0,
+                    "_Label": "YAxis 1"
+                  },
+                  "Labels": {
+                    "DateFormat": "YYYY-MM-DD",
+                    "MaxWidth": 0,
+                    "_ReverseCache": false
+                  }
+                },
+                {
+                  "_Hidden": {
+                    "_AxisId": "axis_37281",
+                    "_Index": 1,
+                    "_Label": "YAxis 2",
+                    "_Type": "linear"
+                  },
+                  "Position": "right",
+                  "Labels": {
+                    "MaxWidth": 0,
+                    "_ReverseCache": false,
+                    "FontColor": "#F8F8F8",
+                    "Offset": false,
+                    "DateFormat": "YYYY-MM-DD"
+                  },
+                  "Range": {
+                    "Max": 0,
+                    "Min": 0,
+                    "SoftRange": false,
+                    "SuggestedMax": 0,
+                    "SuggestedMin": 0,
+                    "UseDataRange": false
+                  }
+                }
+              ],
+              "version": "4.7.5",
+              "Style": {
+                "Palette": {
+                  "1": {
+                    "type": "#c8d119"
+                  }
+                }
+              },
+              "Zoom": {
+                "DragPan": false,
+                "DragZoom": false,
+                "ScrollZoom": false
+              }
+            },
+            "containerId": null,
+            "components": [],
+            "widgets": [],
+            "definitionId": "1007",
+            "hasOnSettingsChange": true
+          }
+        }
+      ],
+      "relativeHeight": true,
+      "rowCount": 24,
+      "rowHeight": 25,
+      "colCount": 36,
+      "floatable": true,
+      "isDefault": true
+    }
+  ],
+  "popups": [],
+  "tags": [],
+  "dashboardTheme": "Dark",
+  "themeSwitchable": true,
+  "saveTimestamp": null,
+  "relativeHeight": true,
+  "rowCount": 24,
+  "rowHeight": 25,
+  "colCount": 36,
+  "floatable": true,
+  "viewState": {
+    ".settings": {},
+    "_settings": {
+      "dashboardUser": {
+        "_viewType": true,
+        "_type": "symbol",
+        "_default": ""
+      },
+      "dashboardTimezone": {
+        "_viewType": true,
+        "_type": "symbol",
+        "_default": ""
+      },
+      "dashboardUrl": {
+        "_viewType": true,
+        "_type": "string",
+        "_default": ""
+      },
+      "dashboardTitle": {
+        "_viewType": true,
+        "_type": "symbol",
+        "_default": ""
+      },
+      "dashboardStartTimestamp": {
+        "_viewType": true,
+        "_type": "timestamp",
+        "_default": "",
+        "_rolling": true
+      }
+    },
+    "DateTime": {
+      "_viewType": true,
+      "_type": "datetime",
+      "_default": "2023-07-04T10:26:10.035000000Z"
+    },
+    "Measure": {
+      "_viewType": true,
+      "_default": "",
+      "_type": "symbol"
+    }
+  },
+  "data": {
+    "distinct dt": {
+      "_autoExec": true,
+      "_autoExecute": true,
+      "_columns": [
+        "dt"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "hdb",
+      "_mappings": {
+        "key": "dt",
+        "mappings": {},
+        "value": ""
+      },
+      "_maxRows": 2000,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_queryString": "select distinct dt from complete",
+      "_queryParams": [],
+      "_subscriptionKey": "",
+      "_hasUpdateQuery": false,
+      "_updateQueryParams": [],
+      "_updateQueryString": "",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    },
+    "weather_tab": {
+      "_autoExec": true,
+      "_autoExecute": true,
+      "_columns": [
+        "fecha",
+        "id",
+        "carga",
+        "estacion",
+        "longitude",
+        "latitude",
+        "ultravioleta",
+        "viento",
+        "direccion",
+        "temperatura",
+        "humedad",
+        "presion",
+        "solar",
+        "precipitacion",
+        "nulls",
+        "dt",
+        "date",
+        "time"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "hdb",
+      "_mappings": {
+        "key": "fecha",
+        "mappings": {},
+        "value": "id"
+      },
+      "_maxRows": "",
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_queryString": "{[x]select from complete where dt=x}",
+      "_queryParams": [
+        {
+          "name": "x",
+          "index": 0,
+          "type": "datetime",
+          "value": "<%DateTime%>",
+          "IsKdbParam": true,
+          "isViewState": true
+        }
+      ],
+      "_subscriptionKey": "",
+      "_hasUpdateQuery": false,
+      "_updateQueryParams": [],
+      "_updateQueryString": "{[dgAdd;dgUpd;dgDel]\n  / this sample requires keyed table\n  / always use unique key (id), 'Force Reset': checked\n\n  /testTable:: `id xkey ([] id:`int$();name:`symbol$();note1:`symbol$());\n  /`testTable upsert(0i;`dummy;`);\n  /testTable\n\n    availablePK: 1 + exec max id from testTable;\n\n    $[((count dgUpd)>0);`testTable upsert flip dgUpd;];\n    $[((count dgDel)>0);delete from `testTable where id in (dgDel[`id]);];\n\n    /generate unique ids for new items\n    addedCount: count dgAdd[`id];\n    dgAdd[`id]:(availablePK + til addedCount);\n    $[((count dgAdd)>0);`testTable upsert flip dgAdd;];\n}",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    },
+    "metrics": {
+      "_autoExec": true,
+      "_autoExecute": true,
+      "_columns": [
+        "measure"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "hdb",
+      "_mappings": {
+        "key": "measure",
+        "mappings": {},
+        "value": ""
+      },
+      "_maxRows": 2000,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 0.8558951965065502
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 3.1441048034934496
+        }
+      ],
+      "_queryString": "([]measure:`carga`precipitacion`solar`presion`humedad`temperatura`direccion`ultravioleta)",
+      "_queryParams": [],
+      "_subscriptionKey": "",
+      "_hasUpdateQuery": false,
+      "_updateQueryParams": [],
+      "_updateQueryString": "",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    },
+    "avg_weather_tab": {
+      "_autoExec": true,
+      "_autoExecute": true,
+      "_columns": [
+        "time",
+        "carga",
+        "temperatura"
+      ],
+      "_dataType": "query",
+      "_dataSource": "kdb",
+      "_connection": "hdb",
+      "_mappings": {
+        "key": "time",
+        "mappings": {},
+        "value": "carga"
+      },
+      "_maxRows": 2000,
+      "_subscriptionType": "static",
+      "_subscriptionInterval": 3,
+      "_layout": [
+        {
+          "isExpanded": true,
+          "weight": 2
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": false,
+          "weight": 1
+        },
+        {
+          "isExpanded": true,
+          "weight": 0
+        },
+        {
+          "isExpanded": true,
+          "weight": 2
+        }
+      ],
+      "_queryString": "{[m;d]\r\n  ?[select from complete where date=\"d\"$d;enlist[(not;(null;m))];enlist[`time]!enlist[`time];(`carga;m)!((avg;`carga);(avg;m))]}",
+      "_queryParams": [
+        {
+          "name": "m",
+          "index": 0,
+          "type": "symbol",
+          "value": "<%Measure%>",
+          "IsKdbParam": true,
+          "isViewState": true
+        },
+        {
+          "name": "d",
+          "index": 1,
+          "type": "datetime",
+          "value": "<%DateTime%>",
+          "IsKdbParam": true,
+          "isViewState": true
+        }
+      ],
+      "_subscriptionKey": "",
+      "_hasUpdateQuery": false,
+      "_updateQueryParams": [],
+      "_updateQueryString": "",
+      "_updateType": "query",
+      "_pageSize": 2000,
+      "_serverPaging": false
+    }
+  },
+  "worksheetPadding": 10,
+  "widgetsSpacing": 0,
+  "borderColor": "000000",
+  "borderBackground": "000000",
+  "transparentBackground": true,
+  "borderWidth": 0,
+  "borderRounding": 0,
+  "borderSpacing": 0,
+  "borderShadow": false,
+  "saveViewerState": "enabled",
+  "hostnameAccess": "",
+  "hash": "9364b988-5a7f-f38e-a5e0-a841d1c8d40c",
+  "enableShareDashboard": false,
+  "notifications": null,
+  "showLoadingIndicators": true,
+  "unsavedViewerPrompt": false,
+  "advancedCss": "",
+  "cssClasses": "",
+  "version": "4.7.4",
+  "wasChanged": false
+}
