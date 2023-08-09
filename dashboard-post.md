@@ -1,16 +1,19 @@
 # KX Dashboards
 
-Note: In order to replicate this post on your machine, we have provided the dashboard JSON file on the post's [Github Repository](https://github.com/hablapps/kx-dashboards-post). You would also need the source data and a Google Maps API key. Since the data source file is too large, we recommend following our last few posts dealing with PyKX where we build this table using the source data. This table we need is the same we use for the LTSM model, and it's usually called **complete**. For Dashboards to be able to load this data, it needs to be loaded in memory on a table called **complete** and be served on a q session running on port 5001.
+
+## Steps to reproduce
+
+In order to replicate the dashboard described on this post, all described on the [README file]().
+
+---
+
+## Chapter 1: Getting the gist of it
 
 Thanks to the successful deployment of the kdb infrastructure discussed in our last post, Emma Monad, the CTO of Mad Flow, has decided to spend some time exploring the KX technology ecosystem more thoroughly. One of the tools that caught her attention the most was KX Dashboards. "This seems to be exactly what we need to replace those couple of processes written in Python that create some static graphics and automatically send them via email to our customers," she thought. Indeed, KX Dashboards would allow Emma to build dynamic reports based on the analytic data obtained from her processes and present them to her customers in a clean and interactive way, enabling them to gain more detailed insights into their data and information.
 
 Emma has tasked our current protagonist, Félix Atomic, to build a dashboard to visualise Madrid's historic traffic using this new platform.  He has some background using other dashboard platforms, but he has mainly focused on developing software up until now, so this will mostly be a new experience to him. 
 
 "Let's dive in, then." he thought, "This may be interesting!"
-
----
-
-## Chapter 1: Getting the gist of it
 
 He started from the beginning: opening the URL his boss sent him. He was greeted by some examples prebuilt into the platform and decided to check them out, just to see what was possible. They were well built and varied in nature, but Félix focused on the ones that had maps, naturally. Since it was his first experience, he clicked around and eventually found the "Design" mode, where he could add new components and edit their properties. "Okay, I think I know where to begin..." he thought.
 

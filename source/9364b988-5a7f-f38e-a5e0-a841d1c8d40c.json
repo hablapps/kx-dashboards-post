@@ -2,7 +2,7 @@
   "id": "9364b988-5a7f-f38e-a5e0-a841d1c8d40c",
   "name": "Weather Traffic",
   "creationDate": "Tue, 04 Jul 2023 10:11:47 GMT",
-  "lastUpdateDate": "Thu, 06 Jul 2023 11:28:06 GMT",
+  "lastUpdateDate": "Wed, 09 Aug 2023 10:47:41 GMT",
   "thumb": null,
   "screenDetails": [
     {
@@ -54,17 +54,16 @@
                 "default"
               ],
               "possibleHFloats": [
-                "carga",
                 "longitude",
                 "latitude",
-                "ultravioleta",
-                "viento",
-                "direccion",
-                "temperatura",
-                "humedad",
-                "presion",
+                "ultraviolet",
+                "wind",
+                "direction",
+                "temperature",
+                "humidity",
+                "pressure",
                 "solar",
-                "precipitacion"
+                "rainfall"
               ],
               "possibleLFloats": [
                 "default"
@@ -634,40 +633,41 @@
               "Layers": [
                 {
                   "_Hidden": {
+                    "_Type": "Line",
                     "_Index": 0,
                     "_LayerId": "layer_8977",
                     "_PossibleColumns": [
                       "time",
-                      "carga",
-                      "temperatura"
+                      "traffic_load",
+                      "temperature"
                     ],
                     "_PossibleColumnsWithItself": [
                       "<this>",
                       "time",
-                      "carga",
-                      "temperatura"
+                      "traffic_load",
+                      "temperature"
                     ],
                     "_PossibleColumnsWithXYKey": [
                       "<thisX>",
                       "<thisY>",
                       "<thisName>",
                       "time",
-                      "carga",
-                      "temperatura"
+                      "traffic_load",
+                      "temperature"
                     ],
                     "_PossibleRadius": [
                       "Fixed Size",
                       "time",
-                      "carga",
-                      "temperatura"
+                      "traffic_load",
+                      "temperature"
                     ],
                     "_PossibleXAxes": [
                       "XAxis 1"
                     ],
                     "_PossibleYAxes": [
-                      "YAxis 1"
+                      "YAxis 1",
+                      "YAxis 2"
                     ],
-                    "_Type": "Line",
                     "_PossibleLayers": [
                       "nofill",
                       "Layer 2",
@@ -677,26 +677,26 @@
                     ]
                   },
                   "Basics": {
-                    "Data": {
-                      "_dashboardsType": "data",
-                      "value": "avg_weather_tab"
-                    },
                     "LegendLabelColor": "",
                     "Name": {
                       "_dashboardsType": "viewstate",
                       "value": "Measure"
                     },
                     "BackgroundOpacity": 50,
-                    "BorderWidth": 3
+                    "BorderWidth": 3,
+                    "Data": {
+                      "_dashboardsType": "data",
+                      "value": "avg_weather_tab"
+                    }
                   },
                   "Axes": {
                     "XAxisData": "time",
-                    "XAxisID": "XAxis 1",
-                    "YAxisID": "YAxis 1",
                     "YAxisData": {
                       "_dashboardsType": "viewstate",
                       "value": "Measure"
-                    }
+                    },
+                    "XAxisID": "XAxis 1",
+                    "YAxisID": "YAxis 1"
                   },
                   "Labels": {
                     "Font": {
@@ -710,32 +710,33 @@
                 },
                 {
                   "_Hidden": {
+                    "_Type": "Line",
                     "_Index": 1,
                     "_LayerId": "layer_37285",
                     "_PossibleColumns": [
                       "time",
-                      "carga",
-                      "temperatura"
+                      "traffic_load",
+                      "temperature"
                     ],
                     "_PossibleColumnsWithItself": [
                       "<this>",
                       "time",
-                      "carga",
-                      "temperatura"
+                      "traffic_load",
+                      "temperature"
                     ],
                     "_PossibleColumnsWithXYKey": [
                       "<thisX>",
                       "<thisY>",
                       "<thisName>",
                       "time",
-                      "carga",
-                      "temperatura"
+                      "traffic_load",
+                      "temperature"
                     ],
                     "_PossibleRadius": [
                       "Fixed Size",
                       "time",
-                      "carga",
-                      "temperatura"
+                      "traffic_load",
+                      "temperature"
                     ],
                     "_PossibleXAxes": [
                       "XAxis 1"
@@ -744,7 +745,6 @@
                       "YAxis 1",
                       "YAxis 2"
                     ],
-                    "_Type": "Line",
                     "_PossibleLayers": [
                       "Layer 1",
                       "nofill",
@@ -754,22 +754,22 @@
                     ]
                   },
                   "Basics": {
-                    "Data": {
-                      "_dashboardsType": "data",
-                      "value": "avg_weather_tab"
-                    },
                     "LegendLabelColor": "",
                     "Name": "carga",
                     "BackgroundColor": "#F23A66",
                     "BackgroundOpacity": 50,
                     "BorderColor": "#F23A66",
-                    "BorderWidth": 3
+                    "BorderWidth": 3,
+                    "Data": {
+                      "_dashboardsType": "data",
+                      "value": "avg_weather_tab"
+                    }
                   },
                   "Axes": {
                     "XAxisData": "time",
+                    "YAxisData": "traffic_load",
                     "XAxisID": "XAxis 1",
-                    "YAxisID": "YAxis 2",
-                    "YAxisData": "carga"
+                    "YAxisID": "YAxis 2"
                   },
                   "Labels": {
                     "Font": {
@@ -794,10 +794,10 @@
               "XAxes": [
                 {
                   "_Hidden": {
+                    "_Type": "time",
                     "_AxisId": "axis_19188",
                     "_Index": 0,
-                    "_Label": "XAxis 1",
-                    "_Type": "time"
+                    "_Label": "XAxis 1"
                   },
                   "GridLines": {
                     "OffsetGridLines": false
@@ -852,16 +852,15 @@
                 },
                 {
                   "_Hidden": {
+                    "_Type": "linear",
                     "_AxisId": "axis_37281",
                     "_Index": 1,
-                    "_Label": "YAxis 2",
-                    "_Type": "linear"
+                    "_Label": "YAxis 2"
                   },
-                  "Position": "right",
                   "Labels": {
+                    "FontColor": "#F8F8F8",
                     "MaxWidth": 0,
                     "_ReverseCache": false,
-                    "FontColor": "#F8F8F8",
                     "Offset": false,
                     "DateFormat": "YYYY-MM-DD"
                   },
@@ -872,7 +871,8 @@
                     "SuggestedMax": 0,
                     "SuggestedMin": 0,
                     "UseDataRange": false
-                  }
+                  },
+                  "Position": "right"
                 }
               ],
               "version": "4.7.5",
@@ -1010,22 +1010,20 @@
       "_autoExec": true,
       "_autoExecute": true,
       "_columns": [
-        "fecha",
+        "dt",
         "id",
-        "carga",
-        "estacion",
+        "traffic_load",
+        "weather_station",
         "longitude",
         "latitude",
-        "ultravioleta",
-        "viento",
-        "direccion",
-        "temperatura",
-        "humedad",
-        "presion",
+        "ultraviolet",
+        "wind",
+        "direction",
+        "temperature",
+        "humidity",
+        "pressure",
         "solar",
-        "precipitacion",
-        "nulls",
-        "dt",
+        "rainfall",
         "date",
         "time"
       ],
@@ -1033,7 +1031,7 @@
       "_dataSource": "kdb",
       "_connection": "hdb",
       "_mappings": {
-        "key": "fecha",
+        "key": "dt",
         "mappings": {},
         "value": "id"
       },
@@ -1120,7 +1118,7 @@
           "weight": 3.1441048034934496
         }
       ],
-      "_queryString": "([]measure:`carga`precipitacion`solar`presion`humedad`temperatura`direccion`ultravioleta)",
+      "_queryString": "([]measure:`traffic_load`rainfall`solar`pressure`humidity`temperature`direction`ultraviolet)",
       "_queryParams": [],
       "_subscriptionKey": "",
       "_hasUpdateQuery": false,
@@ -1135,8 +1133,8 @@
       "_autoExecute": true,
       "_columns": [
         "time",
-        "carga",
-        "temperatura"
+        "traffic_load",
+        "temperature"
       ],
       "_dataType": "query",
       "_dataSource": "kdb",
@@ -1144,7 +1142,7 @@
       "_mappings": {
         "key": "time",
         "mappings": {},
-        "value": "carga"
+        "value": "traffic_load"
       },
       "_maxRows": 2000,
       "_subscriptionType": "static",
@@ -1171,7 +1169,7 @@
           "weight": 2
         }
       ],
-      "_queryString": "{[m;d]\r\n  ?[select from complete where date=\"d\"$d;enlist[(not;(null;m))];enlist[`time]!enlist[`time];(`carga;m)!((avg;`carga);(avg;m))]}",
+      "_queryString": "{[m;d]\r\n  ?[select from complete where date=\"d\"$d;enlist[(not;(null;m))];enlist[`time]!enlist[`time];(`traffic_load;m)!((avg;`traffic_load);(avg;m))]}",
       "_queryParams": [
         {
           "name": "m",
@@ -1218,5 +1216,5 @@
   "advancedCss": "",
   "cssClasses": "",
   "version": "4.7.4",
-  "wasChanged": false
+  "wasChanged": true
 }
