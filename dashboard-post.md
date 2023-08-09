@@ -3,7 +3,7 @@
 
 ## Steps to reproduce
 
-In order to replicate the dashboard described on this post follow the [README file]()'s indications. We provide the dashboard itself as a JSON and the dataset, but a Google Maps API key and KX Dashboards itself are also needed.
+In order to replicate the dashboard described on this post follow the [README file](https://github.com/hablapps/kx-dashboards-post/blob/master/README.md)'s indications. We provide the dashboard itself as a JSON and the dataset, but a Google Maps API key and KX Dashboards itself are also needed.
 
 ---
 
