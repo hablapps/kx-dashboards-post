@@ -3,7 +3,7 @@
 
 ## Steps to reproduce
 
-In order to replicate the dashboard described on this post, all described on the [README file]().
+In order to replicate the dashboard described on this post follow the [README file]()'s indications. We provide the dashboard itself as a JSON and the dataset, but a Google Maps API key and KX Dashboards itself are also needed.
 
 ---
 
@@ -139,6 +139,8 @@ To make the most of KX Dashboards, it was crucial to understand the fundamental 
 
 * View States are a must if you want to connect components together, and once you grasp the concept, you'll find yourself using them everywhere. However, it's essential to be mindful as things can quickly get out of hand. Keeping them tidy and organized is crucial before it becomes too late.
 
-Once those two key concepts were fully understood, the experience of using the platform became much more intuitive. 
+Once those two key concepts were fully understood, the experience of using the platform became much more intuitive.
+
+We also found [KX's blog posts on Dashboards](https://kx.com/search/?search_value=dashboards) to be incredibly useful, especially the ones describing the whole process of building a dashboard from scratch. In particular, [Visualizing Cycles Using KX Dashboards](https://kx.com/blog/visualizing-cycles-using-kx-dashboards/) allowed us to understand the playback component in depth and enabled us to take our dashboard to the next level.
 
 For future projects, we see a couple of routes that seem particularly interesting: custom components and real-time data. Specifically, we wish for the ability to "link" multiple components together, assigning them all a single shared View State and being able to add more layers to our traffic heatmap. These could most likely be achieved by creating custom components. Regarding real-time data and streaming data sources, we see a perfect match to visualize and gain insights into them using KX Dashboards facilities. Stay tuned for more updates and exciting developments ahead!
