@@ -14,7 +14,7 @@ complete:("PJJJFFFFFFFFFFDT";enlist ",")0:`$":complete.csv"
 
 The dashboard itself is provided as a JSON file on this post's [Github Repository](https://github.com/hablapps/kx-dashboards-post/blob/master/source/9364b988-5a7f-f38e-a5e0-a841d1c8d40c.json). To make it available on KX Dashboards' web interface, it needs to be placed on the directory `dash/data/dashboards` on the KX Dashboards installation directory.
 
-If you wish to build the dataset from scratch, we strongly recommend you follow our [posts on PyKX](https://github.com/hablapps/AllRoadsLeadToPyKX/), where we get the source data files and work with them to ultimately obtain this very table we need. We also recommend to give them a read whenever possible to understand the context of this post.
+If you wish to build the dataset from scratch, we strongly recommend you follow our [posts on PyKX](https://github.com/hablapps/AllRoadsLeadToKdb/), where we get the source data files and work with them to ultimately obtain this very table we need. We also recommend to give them a read whenever possible to understand the context of this post.
 
 The post assumes everything described here is ready and working.
 
